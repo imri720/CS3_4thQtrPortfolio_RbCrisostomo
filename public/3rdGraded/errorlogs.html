@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta name="author" content="Sir Roy/Al Mendoza">
+  <meta name="author" content="Imanuel C. Crisostomo, Martin Jayrald Z. Lozano">
   <meta name="description" content="testing and debugging">
   <meta name="keywords" content="testing and debugging">
   <title>CS3 </title>
@@ -42,7 +42,7 @@
       <a href="index.html#output">Output</a>
     </nav>
     
-    <h1 style="padding: 30px">Your Name / Section Mar 2026 </h1>
+    <h1 style="padding: 30px">Imanuel C. Crisostomo, Martin Jayrald Z. Lozano, 9-Rubidium - Mar 2026 </h1>
   </header>
 
   <section id="table">
@@ -56,63 +56,63 @@
       </tr>
       <tr>
         <td> 1 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> CSS Line 7 & 8 </td> 
+        <td> Multiple font-family stack overrides instead of fallback. </td>
+        <td> Combine them into one: font-family: 'Roboto', 'Poppins', 'Open Sans', sans-serif; </td>
       </tr>
       <tr>
         <td> 2 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> CSS Line 25 </td> 
+        <td> The nav selector is missing fixed positioning to prevent it from scrolling. </td>
+        <td> Add position: fixed; top: 0; left: 0; z-index: 1000; to the nav block. </td>
       </tr>
       <tr>
         <td> 3 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> CSS Line 31 </td> 
+        <td> display: block on nav a forces links to stack vertically instead of inline. </td>
+        <td> Change display: block; to display: inline-block; so they stay on one line. </td>
       </tr>
       <tr>
         <td> 4 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> CSS Line 38 </td> 
+        <td> There is an accidental space before the pseudo-class (nav a :hover). </td>
+        <td> Remove the space so it reads: nav a:hover. </td>
       </tr>
       <tr>
         <td> 5 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> JS Line 1 </td> 
+        <td> The plotPoint() function does not accept the variables x0, y0, x, y as parameters. </td>
+        <td> Change line 1 to: function plotPoint(x0, y0, x, y) { </td>
       </tr>
       <tr>
         <td> 6 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> JS Line 3 </td> 
+        <td> The element in1 is directly referenced without being grabbed from the DOM. </td>
+        <td> Add const in1 = document.getElementById('in1'); at the top of the function. </td>
       </tr>
       <tr>
         <td> 7 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> JS Line 7 </td> 
+        <td> Typo in property access: styleleft is not valid. </td>
+        <td> Correct it to point.style.left to properly manipulate CSS through JS. </td>
       </tr>
       <tr>
         <td> 8 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> JS Line 8 </td> 
+        <td> Typo in property access: stylebottom is not valid. </td>
+        <td> Correct it to point.style.bottom to properly manipulate CSS through JS. </td>
       </tr>
       <tr>
         <td> 9 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> JS Line 12 </td> 
+        <td> The element out1 is directly referenced without being grabbed from the DOM. </td>
+        <td> Add const out1 = document.getElementById('out1'); at the top of the function. </td>
       </tr>
       <tr>
         <td> 10 </td> 
-        <td> </td> 
-        <td> </td>
-        <td> </td>
+        <td> JS Line 25 </td> 
+        <td> The function plotPoint is missing its closing curly bracket }. </td>
+        <td> Add } at the very end of your JavaScript file. </td>
       </tr>
      
     </table>
@@ -120,7 +120,6 @@
   </section>
   
    
-  <!--- anchors for socmed site are done with image sprites -->
   <footer>
     <a href="https://facebook.com"> 
     <div class="icon facebook"></div>
